@@ -12,6 +12,11 @@
     "prepare": "npm run build",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plural-course/ps-author-helper.git"
   },
   "keywords": [],
   "author": "SD Plural",
